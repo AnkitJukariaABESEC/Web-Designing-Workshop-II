@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Of Duty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inventory.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: black;
+    height: 600px;
+    overflow: hidden;
+}
+.bgimg{
+    height: 600px;
+    /* background-image: url("background.jpg");
+    background-size: cover; */
+    opacity: 0.9;
+}
+.icons{
+    display: flex;
+    height: 50px;
+    gap: 20px;
+    justify-content: flex-end;
+    right: 15px;
+    position:fixed;
+    z-index: 1000;
+    top:15px ;
+    right: 10px;
+}
+.icons a img{
+    height: 30px;
+}
+.icons a img:hover{
+    height: 32px;
+}
+.guns{
+   height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 150px;
+    left: 350px;
+    z-index: 100;
+    border-radius: 4px;
+    /* border: 3px solid black; */
+}
+.guns a{
+display: block;
+}
+.guns img{
+  border-radius: 4px;
+  height: 200px;
+  width: 400px;
+}
+.nav{
+  display: flex;
+  gap: 80px;
+}
+.nav button{
+  height: 30px;
+  width: 80px;
+  background-color: yellow;
+}
+.nav button:hover{
+  background-color: gold;
+  cursor:pointer;
+}
+.nav a button{
+  background-color:yellow;
+}
+.bottom button{
+    height: 35px;
+    width: 90px;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid yellow;
+}
+.bottom{
+    height: 100px;
+    width:97vw;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right:10px;
+    top: 515px;
+    z-index: 100;
+}
+.bottom button:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+.bottom button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="bgimg">
+            <img src="background2.jpg" alt="">
+            <div class="icons">
+                <a href=""><img src="mail.png" alt=""></a>
+                <a href=""><img src="multiple-users-silhouette.png" alt=""></a>
+                <a href=""><img src="top-up.png" alt=""></a>
+                <a href=""><img src="circle.png" alt=""></a>
+                <a href=""><img src="settings.png" alt=""></a>
+                <a href=""><img src="battery.png" alt=""></a>
+            </div>
+            <div class="guns">
+                <!-- <a href=""><img src="bizon.jpg" alt=""></a> -->
+                    <!-- <a href=""><img src="m9.jpg" alt=""></a> -->
+                      <!-- <a href=""><img src="msbs.jpg" alt=""></a> -->
+                        <a href=""><img src="remington.jpg" alt=""></a>
+                <div class="nav">
+                    <a href="msbs.html"><button>Previous</button></a>
+                    <button>Equip</button>
+                    <a href="sa-805.html"><button>Next</button></a>
+                </div>
+       
+        <!-- <a href=""><img src="sa-805.jpg" alt=""></a> -->
+        <!-- <a href=""><img src="sc-2010.jpg" alt=""></a> -->
+            </div>
+            <div class="bottom">
+                <button><a href="">🛒Store</a></button>
+                <button><a href="index.html">Back</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
