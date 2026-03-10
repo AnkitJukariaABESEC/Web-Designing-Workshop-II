@@ -94,6 +94,58 @@
 //     console.log(row);
 // }
 
+// DIAMOND PATTERN
+//     *
+//    * *
+//   * * *
+//  * * * *
+//   * * *
+//    * *
+//     *
+// let n = 4;
+// for (let i = 0; i<n;i++) {
+//     let row = "";
+//     for (let j = 0; j <n - 1 - i; j++)
+//         row += " ";
+//     for (let j = 0; j <= i; j++)
+//         row += " *"
+//     console.log(row);
+// }
+// for (let i = n-1; i>0;i--) {
+//     let row = "";
+//     for (let j = 0; j <n-i; j++)
+//         row += " ";
+//     for (let j = 0; j < i; j++)
+//         row += " *"
+//     console.log(row);
+// }
+
+// HOUR GLASS PATTERN
+//  * * * *
+//   * * *
+//    * *
+//     *
+//    * *
+//   * * *
+//  * * * *
+// let n = 4;
+// for (let i = n; i>0;i--) {
+//     let row = "";
+//     for (let j = 0; j <n-i; j++)
+//         row += " ";
+//     for (let j = 0; j < i; j++)
+//         row += " *"
+//     console.log(row);
+// }
+// for (let i = 1; i<n;i++) {
+//     let row = "";
+//     for (let j = 0; j <n - 1 - i; j++)
+//         row += " ";
+//     for (let j = 0; j <= i; j++)
+//         row += " *"
+//     console.log(row);
+// }
+
 // NUMBER PYRAMID
 // 1
 // 22
