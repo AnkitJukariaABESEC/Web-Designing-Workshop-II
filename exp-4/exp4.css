@@ -1,0 +1,30 @@
+.box{
+    height:350px;
+    width: 400px;
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(147, 200, 234);
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.result{
+    height:300px;
+    width: 300px;
+    text-align: center;
+}
+
+#Subjects{
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    background-color: aqua;
+}
+
+button{
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: aquamarine;
+    cursor: pointer;
+}
