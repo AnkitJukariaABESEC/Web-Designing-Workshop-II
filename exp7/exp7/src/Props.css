@@ -1,0 +1,48 @@
+.outer-div{
+    height: 440px;
+    margin: auto;
+    width:270px;
+    background-color: rgb(215, 214, 214);
+    border: 2px solid rgb(215,214,214);
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inner1{
+    color:blue;
+    border: 2px solid aliceblue;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin-bottom:20px;
+    padding: 10px;
+}
+.inner2{
+    color:blue;
+    border: 2px solid aliceblue;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.inner3{
+    color:blue;
+    border: 2px solid aliceblue;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    border-radius: 4px;
+    background-color: aliceblue;
+}
+.outer-div h2{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 600;
+}
