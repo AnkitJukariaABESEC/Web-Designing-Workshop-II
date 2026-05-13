@@ -1,0 +1,60 @@
+.table{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(6,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.table div{
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    height: 65px;
+    padding-top: 17px;
+}
+
+.me-lab{
+    grid-column: 5/7;
+}
+.ec{
+    background-color: dodgerblue;
+}
+.me,.me-lab{
+    background-color: yellowgreen;
+}
+.ma{
+    background-color:orange;
+}
+.so,.so-lab{
+    background-color: darkseagreen;
+}
+.dsa,.dsa-lab{
+    background-color: bisque;
+}
+.dt{
+    background-color: yellow;
+}
+.mentor{
+    background-color: #fff;
+}
+.web,.web-lab{
+    background-color: lightsteelblue;
+}
+.web-lab{
+    grid-column:4/6 ;
+}
+.dsa-lab{
+    grid-column: 4/6;
+}
+.so-lab{
+    grid-column: 2/4;
+}
+.lunch{
+    /* grid-column: 2/7; */
+}
+.ec-lab{
+    grid-column: 2/4;
+    background-color: dodgerblue;
+}
